@@ -1,0 +1,284 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin123",
+      "role": "admin",
+      "nev": "Nagy Péter"
+    },
+    {
+      "id": 2,
+      "username": "adminisztrator",
+      "password": "jelszo123",
+      "role": "adminisztrator",
+      "nev": "Kiss Katalin"
+    }
+  ],
+  "tokens": [
+    {
+      "id": 1774855924554,
+      "token": "c28333046fea3db9488e952add4739ec7b670c732bf35ea668b95ac716c4212f",
+      "userId": 2
+    },
+    {
+      "id": 1774856235264,
+      "token": "011376e91ada17e2b2aa0b52a7d8ca8dc35b417b159d8fb859a3ac939bbe967f",
+      "userId": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Technológia",
+      "slug": "technologia"
+    },
+    {
+      "id": 2,
+      "name": "Tudomány",
+      "slug": "tudomany"
+    },
+    {
+      "id": 3,
+      "name": "Kultúra",
+      "slug": "kultura"
+    },
+    {
+      "id": 4,
+      "name": "Sport",
+      "slug": "sport"
+    },
+    {
+      "id": 5,
+      "name": "Utazás",
+      "slug": "utazas"
+    },
+    {
+      "id": 6,
+      "name": "Gasztronómia",
+      "slug": "gasztronomia"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "cim": "A mesterséges intelligencia jövője",
+      "tartalom": "A mesterséges intelligencia (MI) napjainkra az élet szinte minden területét áthatja. Az orvostudományban képes daganatokat azonosítani a röntgenfelvételeken, a közlekedésben önvezető autók alapja, a pénzügyi szektorban pedig frauddetekciót végez másodpercek alatt. A kutatók egyre ambiciózusabb célokat tűznek ki: az általános mesterséges intelligencia (AGI) elérése, amely emberi szintű gondolkodásra képes, már nem tűnik tudományos fantasztikumnak. Ugyanakkor a technológia etikai kérdéseket is felvet: ki a felelős egy MI döntéséért? Hogyan védjük meg az adatainkat? Ezekre a kérdésekre a társadalomnak és a törvényhozóknak együtt kell megtalálniuk a választ.",
+      "kivonat": "A mesterséges intelligencia forradalmasítja az orvostudományt, a közlekedést és a pénzügyet – de etikai kérdések is felmerülnek.",
+      "categoryId": 1,
+      "szerzo": "Nagy Péter",
+      "datum": "2025-01-15",
+      "boritekep": "https://picsum.photos/seed/ai/800/450",
+      "kiemelt": true
+    },
+    {
+      "id": 2,
+      "cim": "Kvantumszámítógépek: az új korszak hajnala",
+      "tartalom": "A kvantumszámítógépek működése gyökeresen eltér a hagyományos számítógépekétől. Míg a klasszikus gépek biteket használnak (0 vagy 1), a kvantumszámítógépek qubiteket alkalmaznak, amelyek egyszerre lehetnek 0 és 1 állapotban – ezt nevezzük szuperpozíciónak. Ez lehetővé teszi, hogy bizonyos számítási feladatokat exponenciálisan gyorsabban végezzenek el. Az IBM és a Google már versenyben vannak a kvantumfölény eléréséért. A technológia kiemelt alkalmazási területe a kriptográfia: a jelenlegi titkosítási módszerek nagy részét egy kellően erős kvantumszámítógép percek alatt feltörhetné. Az ipar ezért már most dolgozik a kvantumrezisztens algoritmusokon.",
+      "kivonat": "A kvantumszámítógépek qubiteket és szuperpozíciót alkalmaznak – bizonyos feladatoknál exponenciálisan gyorsabbak a klasszikus gépeknél.",
+      "categoryId": 2,
+      "szerzo": "Kiss Katalin",
+      "datum": "2025-01-22",
+      "boritekep": "https://picsum.photos/seed/quantum/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 3,
+      "cim": "A K-pop globális hódítása",
+      "tartalom": "A koreai popzene, közismert nevén K-pop, az elmúlt évtizedben az egyik legbefolyásosabb zenei műfajjá vált a világon. A BTS, a BLACKPINK és a TWICE olyan rajongótáborokat épített ki, amelyek aktívan szerveznek eseményeket Európában és Amerikában is. A siker titkát sokan a tökéletesen kidolgozott image-ben, a látványos koreográfiákban és a közösségi médiával való szoros kapcsolatban látják. A K-pop ipar egyszerre szórakoztatóipari vállalkozás és kulturális exportcikk: Dél-Korea tudatosan használja a jelenséget a soft power erősítésére.",
+      "kivonat": "A K-pop az elmúlt évtizedben globális kulturális jelenséggé vált, amelyet Dél-Korea tudatosan használ soft power eszközeként.",
+      "categoryId": 3,
+      "szerzo": "Nagy Péter",
+      "datum": "2025-02-03",
+      "boritekep": "https://picsum.photos/seed/kpop/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 4,
+      "cim": "A futball taktikai forradalma",
+      "tartalom": "Az elmúlt húsz évben a labdarúgás taktikája radikálisan átalakult. A merev 4-4-2-es rendszert felváltották a rugalmas, pozicionális játékon alapuló formációk. A pressing – az ellenfél labdaszerzés utáni azonnali megnyomása – mára alapkövetelménnyé vált az élcsapatoknál. Pep Guardiola és Jürgen Klopp nevéhez kötik a modern taktikai gondolkodás két meghatározó iskoláját. Az adatelemzés is egyre nagyobb szerepet játszik: a csapatok speciális szoftverekkel elemzik az ellenfél mozgásmintáit.",
+      "kivonat": "A modern futball taktikája a merev rendszerektől a rugalmas, adatvezérelt, pressing-alapú játék felé mozdult el.",
+      "categoryId": 4,
+      "szerzo": "Kiss Katalin",
+      "datum": "2025-02-10",
+      "boritekep": "https://picsum.photos/seed/football/800/450",
+      "kiemelt": true
+    },
+    {
+      "id": 5,
+      "cim": "Japán rejtett kincsei: kisvárosok és templomok",
+      "tartalom": "Tokió és Oszaka mellett Japánnak számtalan elfeledett kincse vár felfedezésre. Kanazawa az Edo-kor hangulatát őrzi gyönyörű geisha negyedével és a Kenroku-en kerttel, amelyet Japán három legszebb kertjének egyikeként tartanak számon. Délen, Kyushu szigetén Nagasaki különleges hangulatot áraszt: a holland és kínai kereskedők hagyatéka ma is érezhető az utcákon. A kisvárosokat körülvevő természet sem marad el: a Kumano Kodo zarándokútvonal UNESCO Világörökség, és gyalogos túrázóknak igazi paradicsom.",
+      "kivonat": "Kanazawa, Nagasaki és a Kumano Kodo zarándokút – Japán legjobb élményei nem feltétlenül a nagyvárosokban rejlenek.",
+      "categoryId": 5,
+      "szerzo": "Nagy Péter",
+      "datum": "2025-02-18",
+      "boritekep": "https://picsum.photos/seed/japan/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 6,
+      "cim": "Fermentálás: az erjesztés reneszánsza",
+      "tartalom": "Az erjesztés az egyik legősibb tartósítási eljárás, mégis napjainkban új reneszánszát éli. A kimchi, a kefir, a kombucha és a kovászos kenyér nemcsak ízletes, hanem a bélflóra egészségére is jótékony hatást gyakorol. A fermentált élelmiszerekben lévő probiotikumok elősegítik az immunrendszer megfelelő működését és csökkentik a gyulladásos folyamatokat. Otthoni fermentáláshoz mindössze néhány alapanyag és türelem szükséges.",
+      "kivonat": "A fermentált élelmiszerek – kimchi, kombucha, kovászos kenyér – nemcsak finomak, hanem a bélflóra egészségét is támogatják.",
+      "categoryId": 6,
+      "szerzo": "Kiss Katalin",
+      "datum": "2025-02-25",
+      "boritekep": "https://picsum.photos/seed/ferment/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 7,
+      "cim": "Webfejlesztés 2025-ben: mire érdemes figyelni?",
+      "tartalom": "A webfejlesztés világa sosem áll meg. 2025-ben a legnagyobb trendet a szerver oldali komponensek térhódítása jelenti. Az Edge Computing lehetővé teszi, hogy a kód a felhasználóhoz legközelebbi szerveren fusson, minimalizálva a késleltetést. A TypeScript mára de facto szabvánnyá vált: az NPM-en megjelenő új csomagok döntő többsége már TypeScript-definíciókat tartalmaz. A CSS terén a CSS Grid és a Container Queries hoztak forradalmi változást a reszponzív tervezésben. Az AI-asszisztált kódolás alapjaiban változtatja meg a fejlesztők mindennapi munkáját.",
+      "kivonat": "Server Components, Edge Computing, TypeScript dominancia és AI-asszisztált fejlesztés – ezek a webfejlesztés főbb irányai 2025-ben.",
+      "categoryId": 1,
+      "szerzo": "Kiss Katalin",
+      "datum": "2025-03-05",
+      "boritekep": "https://picsum.photos/seed/webdev/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 8,
+      "cim": "A Mars-kolonizáció valós kihívásai",
+      "tartalom": "A Mars kolonizálása az emberiség egyik legmerészebb terve. Elon Musk Starship rakétájával 2030-ra az első emberes küldetést tervezi, de a valóság ennél jóval összetettebb képet mutat. A Mars légköre rendkívül ritka és szén-dioxidból áll, így a telepeseknek zárt rendszerekben kell élniük. A sugárzás komoly veszélyt jelent: a Mars nem rendelkezik mágneses térrel, amely megvédené a napszél részecskéitől. A vízért mélyen a talajba kell fúrni, ahol jégként kötött állapotban megtalálható.",
+      "kivonat": "A Mars-kolonizáció technikai akadályai – ritka légkör, sugárzás, vízhiány – mellett a pszichológiai kihívások is komolyak.",
+      "categoryId": 2,
+      "szerzo": "Nagy Péter",
+      "datum": "2025-03-12",
+      "boritekep": "https://picsum.photos/seed/mars/800/450",
+      "kiemelt": true
+    },
+    {
+      "id": 9,
+      "cim": "Magyar filmek külföldön: egyre nagyobb sikerek",
+      "tartalom": "A magyar filmgyártás az utóbbi évtizedben figyelemre méltó eredményeket ért el a nemzetközi porondon. Nemes Jeles László Saul fia Oscar-díjat nyert 2016-ban, majd a Sunset a Cannes-i Versenyprogramban szerepelt. A fiatalabb generáció is erős: több magyar rövidfilm jutott Oscarra, és a koprodukcióban készített alkotások száma évről évre nő. Magyarország kedvező adózási feltételei és képzett stábja vonzóvá teszik az országot külföldi filmforgatások számára is.",
+      "kivonat": "A magyar filmgyártás Oscar-győzelemtől Hollywood-i forgatásokig terjed – a szektor egyre erősebbé válik.",
+      "categoryId": 3,
+      "szerzo": "Kiss Katalin",
+      "datum": "2025-03-20",
+      "boritekep": "https://picsum.photos/seed/hunfilm/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 10,
+      "cim": "E-sport: mikor lesz olimpiai ág?",
+      "tartalom": "Az elektronikus sport rohamos fejlődése felveti a kérdést: mikor kerülhet be az olimpiai programba? A Nemzetközi Olimpiai Bizottság 2024-ben Párizsban már Olympic Esports Series-t rendezett. A legnagyobb akadály a játékok erőszakos tartalma: a NOB nem kíván olyan játékokat befogadni, amelyek fegyverrel való gyilkolást ábrázolnak. A League of Legends, a Dota 2 és a CS:GO ökoszisztémájában dollármilliárdos díjalapok mozognak, és a nézettségi számok felülmúlnak sok hagyományos sportot.",
+      "kivonat": "Az e-sport egyre közelebb kerül az olimpiai programhoz, miközben milliárdos iparrá és komoly atlétikai kihívássá nőtte ki magát.",
+      "categoryId": 4,
+      "szerzo": "Nagy Péter",
+      "datum": "2025-03-28",
+      "boritekep": "https://picsum.photos/seed/esport/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 11,
+      "cim": "Izland: a végső menekülőhely Európában",
+      "tartalom": "Izland az a hely, ahová mindenki el szeretne jutni legalább egyszer az életében. A Föld legritkábban lakott független állama egyszerre kínál aktív vulkánokat, jégmezőket, forró forrásokat és az északi fényt. A Golden Circle útvonal – Gullfoss vízesés, Geysir gejzír, Þingvellir nemzeti park – egyetlen nap alatt bejárható. Az izlandi konyha sem hétköznapi: a fermentált cápa, a bárány fejhúsa és a friss halsaláták egyedi ízvilágot alkotnak. Az ország vízenergiából és geotermikus energiából fedezi szinte teljes energiaszükségletét.",
+      "kivonat": "Izland vulkánoktól jégmezőkig mindent kínál – és szinte teljes egészében megújuló energiával üzemel.",
+      "categoryId": 5,
+      "szerzo": "Kiss Katalin",
+      "datum": "2025-04-04",
+      "boritekep": "https://picsum.photos/seed/iceland/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 12,
+      "cim": "A magyar konyha újrafelfedezése",
+      "tartalom": "A magyar gasztronómiában az elmúlt tíz évben valódi reneszánsz zajlott le. Az Onyx és a Costes Down Town Michelin-csillagos éttermek megmutatták, hogy a magyar ízek fine dining szinten is megállják a helyüket. Párhuzamosan erős mozgalom indult a hagyományos, vidéki ételek felélesztéséért: a gulyás, a halászlé és a töltött káposzta helyi, bio alapanyagokból újraértelmezve egyre többek asztalán jelenik meg. A borászatban Tokaj és az Egri borvidék mellett újabban feltárt területek is figyelemre méltó borokat termelnek.",
+      "kivonat": "Michelin-csillagoktól a vidéki hagyományokig – a magyar konyha megújult és büszkén vállalja gyökereit.",
+      "categoryId": 6,
+      "szerzo": "Nagy Péter",
+      "datum": "2025-04-11",
+      "boritekep": "https://picsum.photos/seed/hunfood/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 13,
+      "cim": "Kiberbiztonság az otthoni felhasználóknak",
+      "tartalom": "Sokan gondolják, hogy a kibertámadások csak nagy vállalatokat érintenek. A valóság az, hogy a hackerek egyre inkább az egyéni felhasználókat veszik célba. Az adathalász e-mailek száma évente megduplázódik. Az erős, egyedi jelszavak és a kétfaktoros hitelesítés az alapvető védekezési eszközök. A jelszókezelő szoftverek megkönnyítik sok erős jelszó kezelését. Fontos a szoftverek naprakészen tartása is: a legtöbb sikeres támadás ismert, már foltozott sebezhetőségeket használ ki.",
+      "kivonat": "Erős jelszavak, kétfaktoros hitelesítés és naprakész szoftverek – a kiberbiztonság otthon is megvalósítható alapszinten.",
+      "categoryId": 1,
+      "szerzo": "Kiss Katalin",
+      "datum": "2025-04-18",
+      "boritekep": "https://picsum.photos/seed/cyber/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 14,
+      "cim": "Az ősrobbanástól napjainkig: kozmológia egyszerűen",
+      "tartalom": "Az univerzum mintegy 13,8 milliárd évvel ezelőtt keletkezett az ősrobbanásban. Az első másodpercekben az anyag és az energia szinte tökéletes egyensúlyban volt, majd a kis eltérések gravitációs összeomláshoz, majd az első csillagok kialakulásához vezettek. A sötét anyag és a sötét energia rejtélye ma is megoldatlan: az ismert, látható anyag az univerzum mindössze 5%-át teszi ki. A James Webb Űrteleszkóp az ősrobbanás utáni első százmillió évből is képes galaxis-előfutárokat megfigyelni.",
+      "kivonat": "Az ősrobbanástól a James Webb Teleszkóp felfedezéseiig – a kozmológia legizgalmasabb kérdései egyszerűen elmagyarázva.",
+      "categoryId": 2,
+      "szerzo": "Nagy Péter",
+      "datum": "2025-04-25",
+      "boritekep": "https://picsum.photos/seed/cosmos/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 15,
+      "cim": "Könyvklubok visszatérése a digitális korban",
+      "tartalom": "Az olvasás egyéni tevékenységnek tűnhet, de a könyvklubok bizonyítják, hogy a közösségi élmény sokszorosára növeli az élvezetet. Az online platformok – Discord, Goodreads, TikTok BookTok közössége – teljesen új dimenziót adtak a könyvklubok működésének. Magyarországon is egyre több helyi könyvklub alakul: kávézókban, könyvtárakban, és akár vállalati szinteken is. A könyvklubok az egyedüllét ellen is hatékony ellenszert kínálnak.",
+      "kivonat": "Az online platformok és a BookTok mozgalom új életet lehelt a könyvklubokba – a közösségi olvasás divat lett.",
+      "categoryId": 3,
+      "szerzo": "Kiss Katalin",
+      "datum": "2025-05-02",
+      "boritekep": "https://picsum.photos/seed/books/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 16,
+      "cim": "Maratonfutás kezdőknek: hogyan vágjunk bele?",
+      "tartalom": "A maraton (42,195 km) az állóképességi sportok királynője, de megközelíthető cél egy egészséges felnőtt számára. Az előkészület általában 16-20 hétig tart, és fokozatos terhelésépítésen alapszik. A megfelelő cipőválasztás kulcsfontosságú: érdemes biomechanikai elemzésen is részt venni. Táplálkozás szempontjából a hosszú edzések előtt és közben szénhidrát-bevitel szükséges. A mentális felkészülés sem elhanyagolható: a falba futás élménye megelőzhető helyes taktikával.",
+      "kivonat": "A maraton elérhető cél: 16-20 hetes felkészüléssel, fokozatos terheléssel és helyes táplálkozással bárki teljesítheti.",
+      "categoryId": 4,
+      "szerzo": "Nagy Péter",
+      "datum": "2025-05-09",
+      "boritekep": "https://picsum.photos/seed/marathon/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 17,
+      "cim": "Portugália: Európa legjobb titkos úticélja",
+      "tartalom": "Portugália az elmúlt tíz évben Európa egyik legnépszerűbb turistacéljává vált, mégis megőrizte autentikusságát. Lisszabon dombos utcáin a villamos számmal reng, míg Portóban a Douro folyó partján csodálatos panoráma tárul elénk. Az Algarve partvidéke az ára miatt is vonzó alternatíva a drágább mediterrán célpontokhoz képest. Kevéssé ismert a belső ország: az Alentejo borvidékén csendes pincészetek várnak. Portugál konyha nélkül nincs Portugália: a bacalhau-s ételek és a pastéis de nata megkerülhetetlen élmények.",
+      "kivonat": "Lisszabontól az Azori-szigetekig Portugália autentikus, megfizethető és változatos – Európa legjobb titkos úticélja.",
+      "categoryId": 5,
+      "szerzo": "Kiss Katalin",
+      "datum": "2025-05-16",
+      "boritekep": "https://picsum.photos/seed/portugal/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 18,
+      "cim": "A kávékultúra evolúciója: a harmadik hullámtól napjainkig",
+      "tartalom": "A kávéfogyasztás háromszoros evolúción ment keresztül. Az első hullám az instant kávé tömegesítéséről szólt, a második a Starbucks-féle élménykávézók elterjedéséről. A harmadik hullám – az ezredforduló körül – a speciality kávé mozgalmát hozta: a kávé eredetére, a termelő kilétére és a pörkölési profilra koncentrálva. Napjainkban a negyedik hullámról is egyre többet hallani: a fermentált kávék és az alternatív elkészítési módszerek kerülnek előtérbe. Budapesten több tucatnyi minőségi kávézó kínál közvetlen kereskedelemből származó szemes kávékat.",
+      "kivonat": "A speciality kávétól a fermentált feldolgozásig – a kávékultúra folyamatosan fejlődik.",
+      "categoryId": 6,
+      "szerzo": "Nagy Péter",
+      "datum": "2025-05-23",
+      "boritekep": "https://picsum.photos/seed/coffee/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 19,
+      "cim": "Okosotthon 2025: mit érdemes beszerezni?",
+      "tartalom": "Az okosotthon-eszközök piaca mára érettnek mondható. A Matter protokoll megjelenése – amelyet az Apple, a Google és az Amazon közösen fejlesztett – véget vetett az ökoszisztéma-zárt rendszerek korszakának: a különböző márkák eszközei ma már gond nélkül kommunikálnak egymással. Okos termosztát terén a Nest és az Ecobee a piacvezetők; a robotporszívók közül a Roborock és a Dreame kínálnak kiváló ár-érték arányt. A biztonsági kamerák esetén az adatvédelem kérdése különösen fontos.",
+      "kivonat": "A Matter protokollnak köszönhetően az okosotthon-eszközök ma már gyártótól függetlenül együttműködnek.",
+      "categoryId": 1,
+      "szerzo": "Kiss Katalin",
+      "datum": "2025-05-30",
+      "boritekep": "https://picsum.photos/seed/smarthome/800/450",
+      "kiemelt": false
+    },
+    {
+      "id": 20,
+      "cim": "Genetikai szerkesztés: a CRISPR forradalom hatásai",
+      "tartalom": "A CRISPR-Cas9 génszerkesztési technológia 2012-es felfedezése azóta forradalmasítja az orvostudományt és a mezőgazdaságot. Az örökletes betegségek – köztük a sarlósejtes anémia – kezelésére már klinikai vizsgálatokat folytatnak, az FDA 2023-ban engedélyezte az első CRISPR-alapú terápiát. A mezőgazdaságban betegségrezisztens gabonafélék fejlesztése folyik. Az etikai kérdések azonban nem kerülhetők meg: a humán csírasejtek szerkesztése, amely az utódokra is öröklődő változásokat hoz, komoly vitákat vált ki.",
+      "kivonat": "A CRISPR génszerkesztés betegségek kezelésétől a mezőgazdasági innovációig forradalmi változást hoz – de etikai dilemmák is kísérik.",
+      "categoryId": 2,
+      "szerzo": "Nagy Péter",
+      "datum": "2025-06-06",
+      "boritekep": "https://picsum.photos/seed/crispr/800/450",
+      "kiemelt": false
+    }
+  ]
+}
